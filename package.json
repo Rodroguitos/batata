@@ -1,0 +1,17 @@
+{
+  "name": "r2d2-proxy",
+  "version": "1.0.0",
+  "description": "Proxy simples entre ESP32 / frontend e OpenAI (guarda a chave no servidor).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "dotenv": "^16.1.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
